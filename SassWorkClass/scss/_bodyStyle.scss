@@ -1,0 +1,19 @@
+
+body{
+    background-color: gray;
+}
+
+.gridBody{
+    display: grid;
+
+    grid-template-areas: 
+    "navBar"
+    "head"
+    "card"
+    "photo"
+    "contact"
+    "map"
+    "feet"
+    ;
+  
+}

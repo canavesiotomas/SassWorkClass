@@ -1,0 +1,59 @@
+nav{  
+    grid-area: navBar;
+
+
+    background-color: rgb(43, 40, 40);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+span{
+    width: 200%;
+    color: blue;
+    background-color: white;
+    border-radius: 20px; 
+    font-size: medium;
+    padding: 3%;
+    margin: 5%;
+
+        &:hover{
+            color: white;
+            animation-name: color;
+            animation-duration: 1s;
+        
+        }
+
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+
+        &:hover{
+            animation-name: color;
+            animation-duration: 1s;
+        }
+   
+}
+
+
+.flexSpan{
+  display: flex;
+    margin-right: 9%;
+}
+
+
+.smallLogo{
+    width: 5%;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 0.5%;
+    animation-name: logo;
+    animation-duration: 1s;
+}
+

@@ -1,0 +1,54 @@
+
+//variables
+
+$fondo: gray;
+$shadow: rgb(109, 103, 103);
+
+
+
+section#cardS{
+    
+    width: 100%;
+    margin-top: 1%;
+    background-color: $fondo;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    
+}
+
+.flexCard{
+   
+    width: 60%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 15%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #fff;
+    
+
+        &:hover{
+            box-shadow: 5px 3px 3px 5px $shadow;
+        }
+
+
+}
+
+.cardPhoto{
+    width: 30%;
+    padding: 1%;
+    border-radius: 20px;
+
+    
+}
+
+
+.cardText{
+    
+    width: 30%;
+   
+}
